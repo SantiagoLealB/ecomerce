@@ -1,0 +1,147 @@
+ 
+// Variables
+@import "variables";
+ 
+.circle-shopping-cart{
+	background-color: #009999;
+	border:1px solid;
+	border-radius:50%;
+	padding: 0.8em 1em;
+
+}
+
+.products-container{
+ 	.product{
+ 		margin-top:1em;
+ 	}
+ }
+.product-avatar{
+	max-width:100%;
+ }
+
+.navbar{
+	margin-bottom:0px;	
+}
+
+.no-margin{
+	margin : 0px;
+}
+	
+.margin-top{
+	
+}
+
+top-space{
+	margin-top:1em;
+}
+
+
+.big-padding{
+	padding:30px;	
+}
+
+.large-padding{
+	padding:10px 15px;
+}
+
+.no-padding{
+	padding:0px;
+}
+
+.no-transform{
+	text-transform:none;
+}
+
+.blue-grey{
+	background-color:#37474f;
+}
+
+.white-text{
+	color:white;
+}
+
+.red-text{
+	color:red;
+}
+
+.inline-block{
+	display:inline-block;	
+}
+
+.absolute{
+	position:absolute;
+}
+
+.table{
+	background-color:white;
+}
+
+.white{
+	background-color:white;
+}
+
+.floating{
+	position:fixed;
+	bottom:2em;
+	right:2em;
+	z-index:100;
+}
+
+.product{
+	width: 600px;
+	max-width:100%;
+	padding:1em;
+	position:relative;
+
+	h1{
+		padding-bottom:10px;
+		border-bottom:solid 1px;
+	}
+
+	.actions{
+		right :1em; 
+		top:2px;
+	}
+} 
+
+.sale-data{
+	
+	padding:1em;
+	text-align: center;
+	border-right: solid 1px #222;
+
+	span{
+		display:block;
+		font-size: 2.2em;
+		color:#3f51b5;
+	}
+}
+
+.creado{
+	background-color:#d4e157;
+}
+
+.highlight{
+	-webkit-animation: highlight 1.5s;
+	animation: highlight 1.5s;
+}
+
+@-webkit-keyframes highlight{
+	50%{
+		background-color: #ffff00 ;
+		color:black;
+	}
+	100%{
+		background-color:inherit;
+	}
+}
+
+@keyframes highlight{
+	50%{
+		background-color:#ffff00;
+		color:black;
+	}
+	100%{
+		background-color:inherit;
+	}
+}
