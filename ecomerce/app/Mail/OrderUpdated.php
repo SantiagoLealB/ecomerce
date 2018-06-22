@@ -28,7 +28,8 @@ class OrderUpdated extends Mailable
      */
     public function build()
     {
-        return $this->from('bad.leal@gmail.com')
+        $correo = "example@gmail.com";
+        return $this->from($correo)
                     ->view('mailers.order_updated');
     }
 }
